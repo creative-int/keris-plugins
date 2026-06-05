@@ -93,19 +93,6 @@ npx skills add creative-int/keris-plugins --list
 
 The skill lives at [`skills/keris-video-proof/SKILL.md`](skills/keris-video-proof/SKILL.md).
 
-## Why proof, not recap
-
-Keris is grounded distribution, not a thin wrapper:
-
-- **Evidence-bound.** `generate_video` binds each video to real commit / PR / diff
-  evidence. `upload_video` is never proof that work happened.
-- **Stable watch links.** Share `https://keris.app/v/{videoId}` the moment you
-  start — the link works while the video is still generating.
-- **Lean tool surface.** The skill steers to the few tools that matter, so it
-  does not bloat your agent's context window.
-- **One canonical server.** A single remote Streamable HTTP MCP server, listed in
-  the MCP Registry and installable into any MCP-aware client.
-
 ## Repo layout
 
 ```
