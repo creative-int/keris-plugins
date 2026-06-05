@@ -1,0 +1,32 @@
+{
+	"name": "keris",
+	"version": "0.1.0",
+	"description": "Turn agent work into a short, narrated proof video — every beat backed by real commits, PRs, and diffs.",
+	"author": {
+		"name": "creative-int",
+		"email": "support@keris.app"
+	},
+	"homepage": "https://keris.app",
+	"repository": "https://github.com/creative-int/keris-plugins.git",
+	"license": "MIT",
+	"keywords": [
+		"keris",
+		"agent-skills",
+		"mcp",
+		"video",
+		"proof",
+		"evidence",
+		"changelog",
+		"pr-recap"
+	],
+	"skills": "./skills",
+	"mcpServers": "./.mcp.json",
+	"interface": {
+		"displayName": "Keris",
+		"shortDescription": "Turn agent work into a short, narrated proof video — every beat backed by real commits, PRs, and diffs.",
+		"longDescription": "Keris turns what your coding agent just shipped into a short, narrated video — a receipt, not a recap. Every beat is grounded in real commits, PRs, and diffs through the Keris GitHub app, so reviewers can trust what they are watching. Generate a video from agent work or upload one you recorded, then share a stable watch link your team can keep up with.",
+		"developerName": "creative-int",
+		"category": "Productivity",
+		"logo": "./assets/logo.png"
+	}
+}

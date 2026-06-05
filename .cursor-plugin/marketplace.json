@@ -1,0 +1,17 @@
+{
+	"name": "keris",
+	"owner": {
+		"name": "creative-int",
+		"email": "support@keris.app"
+	},
+	"metadata": {
+		"description": "Turn agent work into a short, narrated proof video — every beat backed by real commits, PRs, and diffs."
+	},
+	"plugins": [
+		{
+			"name": "keris",
+			"source": ".",
+			"description": "Turn agent work into a short, narrated proof video — every beat backed by real commits, PRs, and diffs."
+		}
+	]
+}

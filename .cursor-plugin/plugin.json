@@ -1,0 +1,26 @@
+{
+	"name": "keris",
+	"version": "0.1.0",
+	"description": "Turn agent work into a short, narrated proof video — every beat backed by real commits, PRs, and diffs.",
+	"author": {
+		"name": "creative-int",
+		"email": "support@keris.app"
+	},
+	"homepage": "https://keris.app",
+	"repository": "https://github.com/creative-int/keris-plugins.git",
+	"license": "MIT",
+	"keywords": [
+		"keris",
+		"agent-skills",
+		"mcp",
+		"video",
+		"proof",
+		"evidence",
+		"changelog",
+		"pr-recap"
+	],
+	"displayName": "Keris",
+	"logo": "assets/logo.png",
+	"skills": "./skills",
+	"mcpServers": "./.mcp.json"
+}
