@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://keris.app">keris.video</a> ·
-  <a href="https://keris.app/install">install</a> ·
+  <a href="https://keris.video">keris.video</a> ·
+  <a href="https://keris.video/install">install</a> ·
   MCP: <code>https://mcp.keris.video/mcp</code>
 </p>
 
