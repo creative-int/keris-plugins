@@ -20,12 +20,6 @@
 
 ---
 
-This repository ships the **`keris-video-proof`** skill and Keris plugin manifests
-for Cursor, Codex, and Claude Code. Every manifest, the `.mcp.json`, and the MCP
-Registry `server.json` are **generated from one source** (`keris.config.ts`) so
-every client says exactly the same thing — edit the config, run `pnpm generate`,
-never hand-edit the generated files.
-
 ## Install
 
 <!-- AUTO-GENERATED:INSTALL START -->
