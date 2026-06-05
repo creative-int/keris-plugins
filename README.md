@@ -93,19 +93,6 @@ npx skills add creative-int/keris-plugins --list
 
 The skill lives at [`skills/keris-video-proof/SKILL.md`](skills/keris-video-proof/SKILL.md).
 
-## Repo layout
-
-```
-keris.config.ts            # single source of truth
-tooling/generate.ts        # emits every adapter (.mcp.json, manifests, server.json, README)
-skills/keris-video-proof/  # the proof-first skill
-.claude-plugin/            # Claude Code plugin + marketplace (generated)
-.codex-plugin/             # Codex plugin (generated)
-.cursor-plugin/            # Cursor plugin + marketplace (generated)
-.mcp.json                  # remote MCP server (generated)
-server.json                # MCP Registry metadata (generated)
-```
-
 ## Develop
 
 ```sh
