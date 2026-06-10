@@ -35,3 +35,7 @@ diff evidence; `upload_video` is never proof. Keep the agent-facing tool surface
 lean so it does not bloat context.
 
 CLAUDE.md is a symlink to this file.
+
+## Platform posture
+
+tooling — keris plugins repo; no product surface. (D7, native-cohesion campaign 2026-06-10; see ~/.agents/artifacts/audits/native-cohesion-20260610/CANON-DECISIONS.md)
