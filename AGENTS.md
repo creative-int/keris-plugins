@@ -40,6 +40,17 @@ CLAUDE.md is a symlink to this file.
 
 tooling — keris plugins repo; no product surface. (D7, native-cohesion campaign 2026-06-10; see ~/.agents/artifacts/audits/native-cohesion-20260610/CANON-DECISIONS.md)
 
-## Root-contract exemptions (declared debt, native-cohesion DoD §1)
+## Companion plugin profile
 
-- This plugins repo intentionally does not carry the full app-repo root contract (TESTING.md, knip.json, codecov.yml, biome.json, turbo.json, pnpm-workspace.yaml, .npmrc). It is a keris satellite; contract adoption follows keris if/when plugins gain independent CI. (2026-06-10)
+This repo intentionally uses the `agent-plugin-companion` profile rather than the full app-family turborepo profile. It is a public agent-facing distribution repo for Keris, so it owns generated plugin manifests, skills, MCP metadata, and install documentation — not product runtime surfaces.
+
+Required root contract for this profile:
+
+- `AGENTS.md` plus `CLAUDE.md -> AGENTS.md`
+- `README.md`, `LICENSE`, `package.json`, `pnpm-lock.yaml`, `tsconfig.json`, `.nvmrc`, `.gitignore`, `.github/workflows/verify.yml`
+- canonical config at `keris.config.ts`
+- generator and smoke tooling under `tooling/`
+- distributed skills under `skills/`
+- generated client adapters: `.mcp.json`, `server.json`, `.claude-plugin/`, `.codex-plugin/`, `.cursor-plugin/`
+
+Intentional omissions: `apps/`, `packages/`, `TESTING.md`, `knip.json`, `codecov.yml`, `biome.json`, `turbo.json`, `pnpm-workspace.yaml`, and `.npmrc` until the plugin pack grows into a workspace or needs private GitHub Packages.
