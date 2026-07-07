@@ -44,7 +44,7 @@ Connect to the Keris MCP server at `https://mcp.keris.video/mcp`.
    narration, selects the on-screen evidence, and renders with the user's avatar.
 3. **Poll.** Call `get_video` until `status` is `completed` or `failed`. The
    `watchUrl` is stable and shareable even while the video is still generating.
-4. **Share.** Return the watch link: `https://keris.app/v/{videoId}`.
+4. **Share.** Return the watch link: `https://keris.video/v/{videoId}`.
 
 `upload_video` is only for a polished video you already recorded that does not
 need Keris narration. **Never treat `upload_video` as proof that work happened** —
@@ -54,7 +54,7 @@ proof comes from `generate_video` binding to real commit/PR/diff evidence.
 
 After Keris finishes, reply with:
 
-- the Keris watch URL (`https://keris.app/v/{videoId}`)
+- the Keris watch URL (`https://keris.video/v/{videoId}`)
 - one sentence on what the video proves
 
 Keep it to those two things. The video carries the detail.

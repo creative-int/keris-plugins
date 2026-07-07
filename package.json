@@ -4,7 +4,7 @@
 	"private": true,
 	"description": "Keris Cursor, Codex, and Claude Code plugin manifests, the keris-video-proof skill, and MCP wiring — generated from one canonical config.",
 	"keywords": ["keris", "agent-skills", "mcp", "proof", "video"],
-	"homepage": "https://keris.app",
+	"homepage": "https://keris.video",
 	"license": "MIT",
 	"repository": {
 		"type": "git",

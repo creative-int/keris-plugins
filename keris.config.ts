@@ -53,8 +53,8 @@ export const keris: KerisConfig = {
 	shortDescription:
 		"Turn agent work into a short, narrated proof video — every beat backed by real commits, PRs, and diffs.",
 	longDescription:
-		"Keris turns what your coding agent just shipped into a short, narrated video — a receipt, not a recap. Every beat is grounded in real commits, PRs, and diffs through the Keris GitHub app, so reviewers can trust what they are watching. Generate a video from agent work or upload one you recorded, then share a stable watch link your team can keep up with.",
-	homepage: "https://keris.app",
+		"Keris turns what your coding agent just shipped into a short, narrated video — a receipt, not a recap. Every generated proof is grounded in real commits, PRs, diffs, and bounded evidence through the Keris GitHub app, so reviewers can trust what they are watching. Use generate_video for proof-bound agent work, then share a stable keris.video watch link your team can keep up with.",
+	homepage: "https://keris.video",
 	repository: "https://github.com/creative-int/keris-plugins",
 	license: "MIT",
 	owner: { name: "creative-int", email: "support@keris.app" },
